@@ -1,0 +1,59 @@
+/* CSS for quote machine */
+
+@media (min-width: 600px) {
+    .container{
+        max-width: 550px;
+    }
+}
+
+body {
+  margin-top: 60px;
+  color: #483C46;
+  background-color: #9CF6F6;
+  font-family: 'Itim', cursive;
+}
+
+#quote-card {
+  margin-top: 40px;
+  background-color: #F56960;
+  border-color: #F56960;
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+/*#quote-card i {
+  color: #483C46;
+}*/
+
+#quote {
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+}
+
+#author {
+  font-size: 22px;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.button {
+  color: #fff;
+  font-size: 20px;
+  background-color: #483C46;
+  border-color: #483C46;
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 3px;
+  padding: 6px 12px 6px 12px;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #3C6E71;
+  border-color: #3C6E71;
+  text-decoration: none;
+}
