@@ -51,9 +51,16 @@ body {
   padding: 6px 12px 6px 12px;
 }
 
-.button:hover {
+.button:link:hover, .button:visited:hover {
   color: #fff;
   background-color: #3C6E71;
   border-color: #3C6E71;
+  text-decoration: none;
+}
+
+.button:visited, .button:active, .button:focus {
+  color: #fff;
+  background-color: #483C46;
+  border-color: #483C46;
   text-decoration: none;
 }
