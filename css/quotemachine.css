@@ -1,5 +1,16 @@
 /* CSS for quote machine */
 
+@media (max-width: 599px) {
+    .container{
+        max-width: 100%;
+    }
+
+    #quote-card {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
+
 @media (min-width: 600px) {
     .container{
         max-width: 550px;
@@ -15,6 +26,7 @@ body {
 
 #quote-card {
   margin-top: 40px;
+  margin-bottom: 10px;
   background-color: #F56960;
   border-color: #F56960;
   border-style: solid;
