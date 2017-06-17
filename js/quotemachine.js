@@ -46,6 +46,7 @@ function loadNewQuote() {
     var author = result.author;
 
     updateQuote(quote, author);
+    updateTweet(quote, author);
   });
 
   $("#new-btn-icon").removeClass("fa-plus-circle").addClass("fa-circle-o-notch fa-spin");
@@ -56,6 +57,13 @@ function updateQuote(quote, author) {
   $("#author").html("~" + author);
 
   $("#new-btn-icon").removeClass("fa-circle-o-notch fa-spin").addClass("fa-plus-circle");
+}
+
+function updateTweet(quote, author) {
+  var uri = "https://twitter.com/intent/tweet?hashtags=quotes&text=";
+  uri += '"' + quote + '" - ' + author;
+
+  $("#tweet-btn").attr("href", encodeURI(uri));
 }
 
 // select a random category
