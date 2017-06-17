@@ -34,7 +34,7 @@ $(document).ready(function() {
 // trigger load of a new quote
 function loadNewQuote() {
   var category = randomQuoteCategory();
-  var uri = "http://quotes.rest/qod.json?category=" + category;
+  var uri = "https://quotes.rest/qod.json?category=" + category;
 
   console.log("Loading new quote: " + uri);
 
