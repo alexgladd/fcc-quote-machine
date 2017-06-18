@@ -35,10 +35,6 @@ body {
   padding: 4px;
 }
 
-/*#quote-card i {
-  color: #483C46;
-}*/
-
 #quote {
   font-family: 'Pacifico', cursive;
   font-size: 24px;
@@ -46,6 +42,10 @@ body {
 
 #author {
   font-size: 22px;
+}
+
+#footer {
+  margin-bottom: 20px;
 }
 
 .buttons {
